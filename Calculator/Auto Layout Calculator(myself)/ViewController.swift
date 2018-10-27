@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-    
+
     private func doAction(symbol: Character, leftSide: Double, rightSide: Double) -> Double? {
         var result: Double?
         switch symbol {
